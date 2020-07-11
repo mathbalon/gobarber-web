@@ -30,9 +30,6 @@
   ],
   "rules": {
     "prettier/prettier": "error",
-    "object-curly-newline": "off",
-    "implicit-arrow-linebreak": "off",
-    "operator-linebreak": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": "off",
     "react/prop-types": "off",
@@ -46,6 +43,10 @@
         ]
       }
     ],
+    "object-curly-newline": "off",
+    "implicit-arrow-linebreak": "off",
+    "operator-linebreak": "off",
+    "no-unused-expressions": "off",
     "import/prefer-default-export": "off",
     "import/extensions": [
       "error",
