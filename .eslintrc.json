@@ -29,8 +29,10 @@
     "prettier"
   ],
   "rules": {
-    "object-curly-newline": "off",
     "prettier/prettier": "error",
+    "object-curly-newline": "off",
+    "implicit-arrow-linebreak": "off",
+    "operator-linebreak": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": "off",
     "react/prop-types": "off",
