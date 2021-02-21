@@ -27,8 +27,6 @@ const ForgotPassword: React.FC = () => {
 
   const { addToast } = useToast();
 
-  // const history = useHistory();
-
   const handleSubmit = useCallback(
     async (data: ForgotPasswordFormData) => {
       try {
@@ -55,8 +53,6 @@ const ForgotPassword: React.FC = () => {
           description:
             'Enviamos um email para confirmar a recuperação de senha. Cheque sua caixa de entrada.',
         });
-
-        // history.push('/dashboard');
       } catch (err) {
         if (err instanceof Yup.ValidationError) {
           const errors = getValidationErrors(err);
