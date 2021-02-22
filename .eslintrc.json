@@ -45,6 +45,7 @@
     "no-unused-expressions": "off",
     "no-unused-vars": "warn",
     "no-confusing-arrow": "off",
+    "import/no-duplicates": "off",
     "import/prefer-default-export": "off",
     "import/extensions": [
       "error",
